@@ -1,7 +1,13 @@
 import streamlit as st
 st.header("Bem Vindo ao mundo mágico do Gois")
-st.text_input("Movie title", "Life of Brian")
-st.toggle("Modo Carnaval")
+st.text_input("Titulo do filme", "É o Brian!")
+modo_carnaval = st.toggle("Modo Carnaval")
+if modo_carnaval:
+    st.write("🎉🎶")
+    st.balloons()  # Efeito de balões para comemorar!
+else:
+    st.write("Modo Carnaval desativado. Que pena! 😢")
+  
 st.text_area("Escreva aqui tudo o que você acha de vc...")
 genre = st.radio(
   "Ta bonito? 👇",
