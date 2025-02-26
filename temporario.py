@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 st.header("Bem Vindo ao mundo mágico do Gois")
 st.text_input("Titulo do filme", "É o Brian!")
 modo_carnaval = st.toggle("Modo Carnaval")
@@ -24,6 +25,14 @@ st.checkbox("Capitão caverna")
 st.checkbox("Homem Sereia")
 st.checkbox("Homem cueca")
 
+df = pd.DataFrame(
+    [
+        {"command": "st.selectbox", "rating": 4, "is_widget": True},
+        {"command": "stballons", "rating": 5, "is_widget": False},
+        {"command": "st.time.input", "rating": 5, "is_widget": True},
+    ]
+)
+edited_df = st.data_editor(df)
 
 
 
