@@ -4,7 +4,7 @@ st.header("Bem Vindo ao mundo mágico do Gois")
 st.button("Botão Salvar")
 st.text_input("Movie title", "Life of Brian")
 st.toggle("Toggle")
-
+st.text_area("Escreva aqui tudo o que você acha de vc...")
 genre = st.radio(
   "Ta bonito? 👇",
   ["Ééééé....", "Meio boca", "Pagar uma caixa de chocolate"],
@@ -15,4 +15,4 @@ selection = st.pills("Frase do dia", options, selection_mode="multi")
 st.markdown(f"Sua frase é: {selection}.")
 
 
-st.text_area("Escreva aqui tudo o que você acha de vc...")
+
