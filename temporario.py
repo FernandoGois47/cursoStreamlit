@@ -5,7 +5,7 @@ st.text_input("Titulo do filme", "É o Brian!")
 modo_carnaval = st.toggle("Modo Carnaval")
 if modo_carnaval:
     st.write("🎉🎶")
-    st.balloons()  # Efeito de balões para comemorar!
+    st.balloons()
 else:
     st.write("Modo Carnaval desativado. Que pena! 😢")
   
