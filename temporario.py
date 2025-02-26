@@ -1,6 +1,6 @@
 import streamlit as st
 st.header("Bem Vindo ao mundo mágico do Gois")
-Toquem no botão para não salvar 👇
+"Toquem no botão para não salvar 👇"
 st.button("Botão Salvar")
 st.text_area("Enter Text")
 st.text_input("Movie title", "Life of Brian")
