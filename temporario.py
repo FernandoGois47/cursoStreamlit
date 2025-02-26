@@ -10,5 +10,9 @@ genre = st.radio(
   ["Ééééé....", "Meio boca", "Pagar uma caixa de chocolate"],
     )
 
+options = ["gato", "sapo", "cama", "bala", "rato", "pijama", "dança", "cueca"]
+selection = st.pills("Frase do dia", options, selection_mode="multi")
+st.markdown(f"Sua frase é: {selection}.")
+
 
 st.text_area("Escreva aqui tudo o que você acha de vc...")
