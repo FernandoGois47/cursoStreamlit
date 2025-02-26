@@ -10,3 +10,6 @@ genre = st.radio(
   "Ta bonito? 👇",
   ["Ééééé....", "Meio boca", "Pagar uma caixa de chocolate"],
     )
+
+
+st.text_area("Escreva aqui tudo o que você acha de vc...")
