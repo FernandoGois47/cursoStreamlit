@@ -10,11 +10,7 @@ genre = st.radio(
   ["Ééééé....", "Meio boca", "Pagar uma caixa de chocolate"],
     )
 
-sujeitos = ["O gato", "O sapo", "O rato", "A cueca"]
-verbos = ["dança", "pula", "come", "fugiu"]
-complementos = ["na cama", "com o pijama", "a bala", "do sapo"]
-selection = st.pills("Frase do dia", options, selection_mode="multi")
-st.markdown(f"Sua frase é: {selection}.")
+
 
 
 
