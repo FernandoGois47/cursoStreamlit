@@ -4,7 +4,8 @@ st.title("Aluno")
 
 A, B = st.columns(2)
 
-st.subheader("Editar Dados")
+
 
 with A:
+  st.subheader("Editar Dados")
   title = st.text_input("Nome Completo")
