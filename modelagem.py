@@ -8,7 +8,13 @@ A, B = st.columns(2)
 with A:
   st.subheader("Editar Dados")
   title = st.text_input("Nome Completo")
-  title = st.text_input("Data de Nascimento:",format="MM.DD.YYYY",
+
+  today = datetime.datetime.now()
+  next_year = today.year + 1
+  jan_1 = datetime.date(next_year, 1, 1)
+  dec_31 = datetime.date(next_year, 12, 31)
+  
+  title = st.text_input("Data de Nascimento:", format="DD.MM.YYYY",
   )
   
 
