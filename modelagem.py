@@ -1,10 +1,11 @@
 import streamlit as st
 
-st.header("Aluno")
+st.title("Aluno")
 
 A, B = st.columns(2)
-
+st.subheader("Editar Dados")
 with A:
-  1
+title = st.text_input("Nome Completo*")
+  
 with B:
   2
