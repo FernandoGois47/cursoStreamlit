@@ -20,6 +20,7 @@ with A:
   title = st.text_input("E-mail:")
 
 with B:
+  st.subheader(" ")
   title = st.text_input("Logradouro:")
   title = st.text_input("Número:")
   title = st.text_input("Bairro:")
