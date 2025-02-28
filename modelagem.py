@@ -8,7 +8,7 @@ A, B = st.columns(2)
 with A:
   st.subheader("Editar Dados")
   title = st.text_input("Nome Completo")
-  title = st.text_input(format="MM.DD.YYYY","Data de Nascimento:")
+  title = st.text_input format="MM.DD.YYYY" ("Data de Nascimento:")
   
 
   st.selectbox(
