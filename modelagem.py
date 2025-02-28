@@ -14,8 +14,8 @@ with A:
   jan_1 = datetime.date(next_year, 1, 1)
   dec_31 = datetime.date(next_year, 12, 31)
   
-  st.text_input("
-    Data de Nascimento:", 
+  st.text_input(
+    "Data de Nascimento:", 
     format="DD.MM.YYYY",
   )
   
