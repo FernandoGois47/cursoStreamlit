@@ -14,6 +14,6 @@ with A:
   st.header("Catchoro")
   st.image("https://denisemazzola.com/wp-content/uploads/Dog-Psychology.svg")
 with A:
-  st.header("Digmon")
-  st.image("https://static.zerochan.net/Agumon.full.3594529.png")
+  st.header("Digimon")
+  st.image("https://m.media-amazon.com/images/M/MV5BNjk1NTQ4NmEtZWM5MC00OTUwLTk2YTItOGU5OTVmNGEyNGNhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg")
   
