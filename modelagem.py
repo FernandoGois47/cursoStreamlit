@@ -9,9 +9,6 @@ with A:
   st.subheader("Editar Dados")
   title = st.text_input("Nome Completo")
 
-
-  
-
   st.selectbox(
     "Sexo:",
     ("Masculino", "Feminino", "Outros"),
