@@ -10,7 +10,7 @@ with A:
   nome = st.text_input("Nome")
   sobrenome = st.text_input("Sobrenome")
 
-  d = st.date_input("Qual sua data de nascimento", datetime.date(2025, 28, 3))
+  niver = st.date_input("Qual sua data de nascimento", datetime.date(2025, 28, 3))
 
   estadocivil = st.selectbox(
     "Estado Civil:",
