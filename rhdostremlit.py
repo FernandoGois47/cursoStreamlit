@@ -1,6 +1,4 @@
 import streamlit as st
 
-st.text_input("Titulo do filme", "É o Brian!")
+container = st.container(border=True)
 
-with st.container(height=300):
-    st.markdown(long_text)
