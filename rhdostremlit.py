@@ -1,8 +1,6 @@
 import streamlit as st
 import datetime
 
-
-with st.container(True):
 st.title("Funcionario")
 
 A, B = st.columns(2)
@@ -21,7 +19,6 @@ with A:
   sexo = st.selectbox(
     "Sexo:",
     ("Masculino", "Feminino", "Outros"),
-  )
 
 with B:
   salario = st.number_input("Qual seu salário")
