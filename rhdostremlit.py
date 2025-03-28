@@ -19,6 +19,6 @@ with A:
   sexo = st.selectbox(
     "Sexo:",
     ("Masculino", "Feminino", "Outros"),
-
+  )
 with B:
   salario = st.number_input("Qual seu salário")
