@@ -1,3 +1,4 @@
 import streamlit as st
 
-print('Oi mundo')
+container = st.container(border=True)
+container.write("Oi mundo")
