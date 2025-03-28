@@ -21,4 +21,9 @@ sexo = st.selectbox(
 )
 salario = st.number_input("Qual seu salário")
 
+if salario >= 2500
+  print("Noooosssaaa, vai rola aumento! Parabéns!")
+else:
+  print("Não foi dessa vez")
+
 
