@@ -26,4 +26,10 @@ if salario >= 2500:
 else:
   st.write("Não foi dessa vez")
 
+aumento = 0
+i = 0
+for i in range(100,500):
+  salario = aumento + 100
+print(f'Salário {salario}')
+
 
