@@ -26,10 +26,11 @@ if salario >= 2500:
   aumento = 0
   while aumento > 500:
     aumento = aumento + 100
-
 else:
   st.write("Não foi dessa vez")
-
+salario = aumento
+st.write("Seu novo salário é: ")
+st.write(salario)
 
 
 
