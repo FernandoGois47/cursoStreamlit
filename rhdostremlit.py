@@ -27,8 +27,8 @@ if salario >= 2500:
   while aumento > 500:
     aumento = aumento + 100
     salario = aumento
-st.write("Seu novo salário é: ")
-st.write(salario)
+    st.write("Seu novo salário é: ")
+    st.write(salario)
 else:
   st.write("Não foi dessa vez")
 
