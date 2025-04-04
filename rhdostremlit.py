@@ -21,7 +21,7 @@ salario = st.number_input("Qual seu salário")
 
 
 if st.button "Calcular":
-  salario >= 2500:
+  salario >= 2500
   st.write("Noooosssaaa, vai rola aumento! Parabéns!")
   aumento = 0
   while aumento > 500:
