@@ -30,7 +30,7 @@ if st.button("Calcular", type="primary"):
         st.write("Não foi dessa vez")
 
 st.write("Seu novo salário é: ")
-st.write str((salario))
+st.write (salario)
 
 
 
