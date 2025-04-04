@@ -20,7 +20,7 @@ sexo = st.selectbox(
 salario = st.number_input("Qual seu salário")
 
 
-if st.button "Calcular" 
+if st.button "Calcular":
   salario >= 2500:
   st.write("Noooosssaaa, vai rola aumento! Parabéns!")
   aumento = 0
