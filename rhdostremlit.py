@@ -3,8 +3,6 @@ import datetime
 
 st.title("Funcionario")
 
-
-
 st.subheader("Editar Dados")
 nome = st.text_input("Nome")
 sobrenome = st.text_input("Sobrenome")
@@ -21,7 +19,9 @@ sexo = st.selectbox(
 )
 salario = st.number_input("Qual seu salário")
 
-if salario >= 2500:
+
+if st.button "Calcular" 
+  salario >= 2500:
   st.write("Noooosssaaa, vai rola aumento! Parabéns!")
   aumento = 0
   while aumento > 500:
