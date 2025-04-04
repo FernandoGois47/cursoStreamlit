@@ -19,18 +19,18 @@ sexo = st.selectbox(
 )
 salario = st.number_input("Qual seu salário")
 
-st.button("Calcular", type="primary")
-if  salario >= 2500:
-  st.write("Noooosssaaa, vai rola aumento! Parabéns!")
-  aumento = 0
-  while aumento > 500:
-    aumento = aumento + 100
-    salario = aumento
-else:
-  st.write("Não foi dessa vez")
+if st.button("Calcular", type="primary"):
+    if salario >= 2500:
+        st.write("Noooosssaaa, vai rolar aumento! Parabéns!")
+        aumento = salario  
+        while aumento < salario + 500:  
+            aumento += 100
+        salario = aumento
+    else:
+        st.write("Não foi dessa vez")
 
-st.write("Seu novo salário é: ")
-st.write(salario)
+    st.write("Seu novo salário é: ")
+    st.write(salario)
 
 
 
